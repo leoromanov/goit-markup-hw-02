@@ -1,0 +1,44 @@
+/* первичный цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет акцентов #2196F3 */
+/* цвет контактов в подвале rgba(255, 255, 255, 0.6) */
+/* цвет фона героя и подвала #2F303A */
+/* цвет фона Наша команда #F5F4FA */
+
+
+
+.list { list-style: none;
+color: var(--text-color) }
+
+/* Hero */
+.hero-title { color: #fff; }
+.hero .hero-button { 
+
+}
+
+/* Section */
+.section-title { color: var(--heading-color);}
+.section.team { background: #F5F4FA;}
+/* Advantages */
+.advantage-list .title { 
+    color: var(--heading-color); 
+    }
+.advantage-list .text { 
+    color: var(--text-color);
+}
+.advantages { color: #fff;}
+
+/* Team */
+
+.team-member { 
+    color: var(--heading-color);}
+
+/* Buttons */ 
+.hero { background: #2F303A;}
+.hero-button {
+    color: #fff;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
