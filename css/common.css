@@ -8,6 +8,7 @@
 .page-body {
     background-color: var(--primary-bg-color);
     color: #212121 ;
+    margin: 0px;
 }
 .page-header {
     color: black;

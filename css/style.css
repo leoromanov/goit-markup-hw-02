@@ -5,7 +5,14 @@
 /* цвет фона героя и подвала #2F303A */
 /* цвет фона Наша команда #F5F4FA */
 
-
+.html {
+    box-sizing: border-box;
+}
+*.
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 .page-body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 0.02em;
@@ -29,14 +36,15 @@ color: var(--text-color) }
     color: #fff;
 
 }
-.hero .hero-button { 
+.hero-button { 
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
-    /* identical to box height, or 187% */
     letter-spacing: 0.06em;
+    
 }
 
 /* Section */
@@ -74,16 +82,31 @@ color: var(--text-color) }
 
 /* Buttons */ 
 .hero { background: #2F303A;}
+
 .hero-button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
     color: #fff;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #fff;
+    color: #2196F3;
+}
+
 
 /* Portfolio */
 
 .portfolio-link {
+    display: inline-block;
+    padding: 20;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
