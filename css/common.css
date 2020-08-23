@@ -3,6 +3,7 @@
     --text-color:#757575;
     --accent-color:#2196F3;
     --primary-bg-color: #fff;
+    --secondary-bg-color: #F5F4FA
 }
 .page-body {
     background-color: var(--primary-bg-color);
@@ -10,8 +11,21 @@
 }
 .page-header {
     color: black;
+
 }
-.link {color: black;}
+
+.site-nav {
+    
+background: #FFFFFF;
+}
+.site-nav .link {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color)
@@ -21,19 +35,53 @@
     color: var(--accent-color);
 }
 
+
+
 .contacts { 
     color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .contacts:hover,
 .contacts:focus {
     color: var(--accent-color);
 }
-.logo { color: #000000}
+.logo { color: #000000; 
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+}
 .web { color: var(--accent-color) ;}
 
 /* Footer */
 .footer { background: #2F303A;}
 .footer-logo {
+    color: #fff; 
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.footer-address { 
     color: #fff;
 }
-.adress { color: #fff;}
+.footer-contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71px;
+    
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: #fff;
+}
