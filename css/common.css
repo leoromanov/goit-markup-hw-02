@@ -3,86 +3,76 @@
     --text-color:#757575;
     --accent-color:#2196F3;
     --primary-bg-color: #fff;
-    --secondary-bg-color: #F5F4FA
+    --secondary-bg-color: #F5F4FA;
+    --black-color: #000000;
+    --footer-color: #2F303A;
 }
-.page-body {
-    background-color: var(--primary-bg-color);
-    color: #212121 ;
-    margin: 0px;
-}
+
 .page-header {
-    color: black;
+    color: var (--black-color: #000000)
 
 }
 
 .site-nav {
     
-background: #FFFFFF;
+background: var(--primary-bg-color)
 }
 .site-nav .link {
-    color: black;
+    color: var (--black-color: #000000)
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
     
+}
+.links {
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link.current,
+.contacts:hover,
+.contacts:focus
+ {
     color: var(--accent-color)
 }
-
-.site-nav .link.current {
-    color: var(--accent-color);
-}
-
-
 
 .contacts { 
     color: var(--text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
 }
-.contacts:hover,
-.contacts:focus {
-    color: var(--accent-color);
-}
-.logo { color: #000000; 
+
+.logo { color: var(--accent-color); 
     text-decoration: none;
     font-family: Raleway, sans-serif;
     letter-spacing: 0.03em;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
 }
-.web { color: var(--accent-color) ;}
+.studio-bl { color: var(--black-color) ;}
+.studio-wh { color: var(--primary-bg-color);}
 
 /* Footer */
-.footer { background: #2F303A;}
-.footer-logo {
-    color: #fff; 
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    letter-spacing: 0.03em;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.2;
-}
+.footer { background: var(--footer-color)}
+
 .footer-address { 
     color: #fff;
+    font-style: normal;
 }
 .footer-contacts {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71px;
-    
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
-    color: #fff;
+    color: var(--accent-color);
 }
